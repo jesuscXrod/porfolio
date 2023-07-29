@@ -1,0 +1,61 @@
+:root {
+    --black: #121212;
+    --purple: #4a148c;
+    --white: #ffffff;
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+header {
+    color: var(--white);
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 20px;
+}
+.logo h1 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.navegacion {
+    list-style: none;
+    display: flex;
+}
+.navegacion li:not(:last-child) {
+    margin-right: 15px;
+}
+.navegacion li a,
+.redes-sociales a {
+    color: var(--white);
+    text-decoration: none;
+}
+.billboard {
+    height: 90vh;
+}
+.billboard h2,
+.billboard h3 {
+    margin: 2.5% 0;
+    font-size: 1.75rem;
+}
+.name-billboard {
+    color: var(--purple);
+}
+.proyectos {
+    color: var(--white);
+    background-color: var(--black);
+    margin-top: 2.5%;
+}
+.proyectos h2 {
+    padding-top: 2.5%;
+}
+.proyectos-container {
+    width: 100%;
+}
